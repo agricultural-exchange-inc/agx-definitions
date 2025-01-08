@@ -1,6 +1,5 @@
 {
 	"name": "agx",
-	"version": "1.0.0",
 	"products": [
 		"./products/Barley.json",
 		"./products/BrownRice.json",
