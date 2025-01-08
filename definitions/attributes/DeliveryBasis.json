@@ -1,0 +1,9 @@
+{
+	"type": "text",
+	"name": "deliveryBasis",
+	"displayName": "Delivery Basis",
+	"required": false,
+	"options": {
+		"placeholder": "FOB Origin, FOB Destination, etc."
+	}
+}

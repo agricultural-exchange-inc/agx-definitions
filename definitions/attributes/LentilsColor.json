@@ -1,0 +1,13 @@
+{
+	"type": "select",
+	"name": "lentilsColor",
+	"displayName": "Lentils Color",
+	"description": "The color of the lentils.",
+	"required": false,
+	"negotiable": true,
+	"options": [
+		{ "value": "red", "label": "Red" },
+		{ "value": "green", "label": "Green" },
+		{ "value": "black", "label": "Black" }
+	]
+}

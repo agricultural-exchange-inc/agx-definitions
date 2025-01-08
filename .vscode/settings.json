@@ -1,0 +1,27 @@
+{
+	"[json]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"json.schemas": [
+		{
+			"fileMatch": [
+				"**/*.attr.json",
+				"**/*.attribute.json",
+				"**/attrs/**/*.json",
+				"**/attributes/**/*.json"
+			],
+			"url": "./schemas/Attribute.json",
+			"schema": true
+		},
+		{
+			"fileMatch": ["**/*.product.json", "**/products/**/*.json"],
+			"url": "./schemas/Product.json",
+			"schema": true
+		},
+		{
+			"fileMatch": ["**/*.index.json", "**/index.json"],
+			"url": "./schemas/Index.json",
+			"schema": true
+		}
+	]
+}

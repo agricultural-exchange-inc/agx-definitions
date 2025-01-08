@@ -1,0 +1,9 @@
+{
+	"type": "numeric",
+	"name": "basis",
+	"displayName": "Basis",
+	"required": true,
+	"options": {
+		"min": 0
+	}
+}

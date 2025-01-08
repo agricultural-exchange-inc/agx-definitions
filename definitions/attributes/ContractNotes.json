@@ -1,0 +1,6 @@
+{
+	"type": "text",
+	"name": "contractNotes",
+	"displayName": "Contract Notes",
+	"required": true
+}

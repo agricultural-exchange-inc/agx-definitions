@@ -1,0 +1,11 @@
+{
+	"type": "numeric",
+	"name": "cropYear",
+	"displayName": "Crop Year",
+	"required": true,
+	"options": {
+		"min": 2014,
+		"max": 2050
+	},
+	"negotiable": false
+}

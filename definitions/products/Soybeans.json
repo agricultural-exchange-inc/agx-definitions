@@ -1,0 +1,25 @@
+{
+	"name": "soybeans",
+	"displayName": "Soybeans",
+	"tier": "family",
+	"icon": "soybean.svg",
+	"attributes": [],
+	"children": [
+		{
+			"name": "yellowSoybeans",
+			"displayName": "Yellow Soybeans",
+			"tier": "class",
+			"icon": "soybean.svg",
+			"attributes": [],
+			"children": []
+		},
+		{
+			"name": "mixedSoybeans",
+			"displayName": "Mixed Soybeans",
+			"tier": "class",
+			"icon": "soybean.svg",
+			"attributes": [],
+			"children": []
+		}
+	]
+}

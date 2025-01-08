@@ -1,0 +1,33 @@
+{
+	"name": "corn",
+	"displayName": "Corn",
+	"tier": "family",
+	"icon": "corn.svg",
+	"attributes": [],
+	"children": [
+		{
+			"name": "yellowCorn",
+			"displayName": "Yellow Corn",
+			"tier": "class",
+			"icon": "corn.svg",
+			"attributes": [],
+			"children": []
+		},
+		{
+			"name": "whiteCorn",
+			"displayName": "White Corn",
+			"tier": "class",
+			"icon": "corn.svg",
+			"attributes": [],
+			"children": []
+		},
+		{
+			"name": "mixedCorn",
+			"displayName": "Mixed Corn",
+			"tier": "class",
+			"icon": "corn.svg",
+			"attributes": [],
+			"children": []
+		}
+	]
+}

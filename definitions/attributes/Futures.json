@@ -1,0 +1,6 @@
+{
+	"type": "text",
+	"name": "futures",
+	"displayName": "Futures",
+	"required": true
+}

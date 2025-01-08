@@ -1,0 +1,33 @@
+{
+	"name": "milledRice",
+	"displayName": "Milled Rice",
+	"tier": "family",
+	"icon": "rice.svg",
+	"attributes": [],
+	"children": [
+		{
+			"name": "secondHeadMilledRice",
+			"displayName": "Second Head Milled Rice",
+			"tier": "class",
+			"icon": "rice.svg",
+			"attributes": [],
+			"children": []
+		},
+		{
+			"name": "screeningsMilledRice",
+			"displayName": "Screenings Milled Rice",
+			"tier": "class",
+			"icon": "rice.svg",
+			"attributes": [],
+			"children": []
+		},
+		{
+			"name": "brewersMilledRice",
+			"displayName": "Brewers Milled Rice",
+			"tier": "class",
+			"icon": "rice.svg",
+			"attributes": [],
+			"children": []
+		}
+	]
+}

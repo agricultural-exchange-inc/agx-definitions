@@ -1,0 +1,6 @@
+{
+	"type": "text",
+	"name": "discountSchedule",
+	"displayName": "Discount Schedule",
+	"required": false
+}

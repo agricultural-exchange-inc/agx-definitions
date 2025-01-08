@@ -1,0 +1,92 @@
+{
+	"name": "coffee",
+	"displayName": "Coffee",
+	"tier": "family",
+	"icon": "coffee.svg",
+	"attributes": [],
+	"children": [
+		{
+			"name": "arabica",
+			"displayName": "Arabica",
+			"tier": "class",
+			"icon": "coffee.svg",
+			"attributes": [],
+			"children": [
+				{
+					"name": "bourbon",
+					"displayName": "Bourbon",
+					"tier": "subclass",
+					"icon": "coffee.svg",
+					"attributes": [],
+					"children": []
+				},
+				{
+					"name": "typica",
+					"displayName": "Typica",
+					"tier": "subclass",
+					"icon": "coffee.svg",
+					"attributes": [],
+					"children": []
+				},
+				{
+					"name": "sl28",
+					"displayName": "SL28",
+					"tier": "subclass",
+					"icon": "coffee.svg",
+					"attributes": [],
+					"children": []
+				},
+				{
+					"name": "gesha",
+					"displayName": "Gesha",
+					"tier": "subclass",
+					"icon": "coffee.svg",
+					"attributes": [],
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "robusta",
+			"displayName": "Robusta",
+			"tier": "class",
+			"icon": "coffee.svg",
+			"attributes": [],
+			"children": [
+				{
+					"name": "conilon",
+					"displayName": "Conilon",
+					"tier": "subclass",
+					"icon": "coffee.svg",
+					"attributes": [],
+					"children": []
+				},
+				{
+					"name": "kouillou",
+					"displayName": "Kouillou",
+					"tier": "subclass",
+					"icon": "coffee.svg",
+					"attributes": [],
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "liberica",
+			"displayName": "Liberica",
+			"tier": "class",
+			"icon": "coffee.svg",
+			"attributes": [],
+			"children": [
+				{
+					"name": "excelsa",
+					"displayName": "Excelsa",
+					"tier": "subclass",
+					"icon": "coffee.svg",
+					"attributes": [],
+					"children": []
+				}
+			]
+		}
+	]
+}

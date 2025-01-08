@@ -1,0 +1,6 @@
+{
+	"type": "text",
+	"name": "settlementTerms",
+	"displayName": "Settlement Terms",
+	"required": true
+}

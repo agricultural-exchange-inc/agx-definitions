@@ -1,0 +1,6 @@
+{
+	"type": "address",
+	"name": "deliveryAddress",
+	"displayName": "Delivery Address",
+	"required": false
+}

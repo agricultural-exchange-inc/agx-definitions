@@ -1,0 +1,11 @@
+{
+	"type": "select",
+	"name": "certifiedOrganic",
+	"displayName": "Certified Organic",
+	"required": true,
+	"options": [
+		{ "value": "yes", "label": "Yes", "disabled": false },
+		{ "value": "no", "label": "No", "disabled": false }
+	],
+	"negotiable": false
+}

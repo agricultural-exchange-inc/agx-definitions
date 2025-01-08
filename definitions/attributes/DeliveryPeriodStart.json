@@ -1,0 +1,6 @@
+{
+	"type": "date",
+	"name": "deliveryPeriodStart",
+	"displayName": "Delivery Period Start",
+	"required": false
+}

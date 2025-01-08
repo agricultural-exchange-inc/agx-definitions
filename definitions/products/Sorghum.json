@@ -1,0 +1,41 @@
+{
+	"name": "sorghum",
+	"displayName": "Sorghum",
+	"tier": "family",
+	"icon": "sorghum.svg",
+	"attributes": [],
+	"children": [
+		{
+			"name": "sorghumSorghum",
+			"displayName": "Sorghum Sorghum",
+			"tier": "class",
+			"icon": "sorghum.svg",
+			"attributes": [],
+			"children": []
+		},
+		{
+			"name": "tanninSorghum",
+			"displayName": "Tannin Sorghum",
+			"tier": "class",
+			"icon": "sorghum.svg",
+			"attributes": [],
+			"children": []
+		},
+		{
+			"name": "whiteSorghum",
+			"displayName": "White Sorghum",
+			"tier": "class",
+			"icon": "sorghum.svg",
+			"attributes": [],
+			"children": []
+		},
+		{
+			"name": "mixedSorghum",
+			"displayName": "Mixed Sorghum",
+			"tier": "class",
+			"icon": "sorghum.svg",
+			"attributes": [],
+			"children": []
+		}
+	]
+}

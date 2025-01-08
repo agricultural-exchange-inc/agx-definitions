@@ -1,0 +1,12 @@
+{
+	"type": "select",
+	"name": "feePayment",
+	"displayName": "Transaction Fee Payer",
+	"value": "seller",
+	"required": false,
+	"options": [
+		{ "value": "buyer", "label": "Buyer", "disabled": false },
+		{ "value": "seller", "label": "Seller", "disabled": false },
+		{ "value": "split", "label": "Split 50/50", "disabled": false }
+	]
+}

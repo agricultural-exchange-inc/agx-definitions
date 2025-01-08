@@ -1,0 +1,6 @@
+{
+	"type": "text",
+	"name": "shipmentText",
+	"displayName": "Shipment Text",
+	"required": true
+}

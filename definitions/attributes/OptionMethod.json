@@ -1,0 +1,6 @@
+{
+	"type": "text",
+	"name": "optionMethod",
+	"displayName": "Option Method",
+	"required": true
+}

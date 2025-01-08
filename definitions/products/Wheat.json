@@ -1,0 +1,132 @@
+{
+	"name": "wheat",
+	"displayName": "Wheat",
+	"tier": "family",
+	"icon": "wheat.svg",
+	"attributes": ["../attributes/Protein.json"],
+	"children": [
+		{
+			"name": "hardRedSpringWheat",
+			"displayName": "Hard Red Spring Wheat",
+			"tier": "class",
+			"icon": "wheat.svg",
+			"attributes": [],
+			"children": [
+				{
+					"name": "darkNorthernSpringWheat",
+					"displayName": "Dark Northern Spring Wheat",
+					"tier": "subclass",
+					"icon": "wheat.svg",
+					"attributes": [],
+					"children": []
+				},
+				{
+					"name": "northernSpringWheat",
+					"displayName": "Northern Spring Wheat",
+					"tier": "subclass",
+					"icon": "wheat.svg",
+					"attributes": [],
+					"children": []
+				},
+				{
+					"name": "redSpringWheat",
+					"displayName": "Red Spring Wheat",
+					"tier": "subclass",
+					"icon": "wheat.svg",
+					"attributes": [],
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "hardRedWinterWheat",
+			"displayName": "Hard Red Winter Wheat",
+			"tier": "class",
+			"icon": "wheat.svg",
+			"attributes": [],
+			"children": []
+		},
+		{
+			"name": "softRedWinterWheat",
+			"displayName": "Soft Red Winter Wheat",
+			"tier": "class",
+			"icon": "wheat.svg",
+			"attributes": [],
+			"children": []
+		},
+		{
+			"name": "hardWhiteWheat",
+			"displayName": "Hard White Wheat",
+			"tier": "class",
+			"icon": "wheat.svg",
+			"attributes": [],
+			"children": []
+		},
+		{
+			"name": "softWhiteSoftShiteWheat",
+			"displayName": "Soft White Soft Shite Wheat",
+			"tier": "class",
+			"icon": "wheat.svg",
+			"attributes": [],
+			"children": []
+		},
+		{
+			"name": "softWhiteWheat",
+			"displayName": "Soft White Wheat",
+			"tier": "class",
+			"icon": "wheat.svg",
+			"attributes": [],
+			"children": [
+				{
+					"name": "whiteClubSoftWhiteWheat",
+					"displayName": "White Club Soft White Wheat",
+					"tier": "subclass",
+					"icon": "wheat.svg",
+					"attributes": [],
+					"children": []
+				},
+				{
+					"name": "westernWhiteSoftWhiteWheat",
+					"displayName": "Western White Soft White Wheat",
+					"tier": "subclass",
+					"icon": "wheat.svg",
+					"attributes": [],
+					"children": []
+				}
+			]
+		},
+		{
+			"name": "durumWheat",
+			"displayName": "Durum Wheat",
+			"tier": "class",
+			"icon": "wheat.svg",
+			"attributes": [],
+			"children": [
+				{
+					"name": "durumDurumWheat",
+					"displayName": "Durum Durum Wheat",
+					"tier": "subclass",
+					"icon": "wheat.svg",
+					"attributes": [],
+					"children": []
+				},
+				{
+					"name": "hardAmberDurumWheat",
+					"displayName": "Hard Amber Durum Wheat",
+					"tier": "subclass",
+					"icon": "wheat.svg",
+					"attributes": [],
+					"children": []
+				},
+				{
+					"name": "amberDurumWheat",
+					"displayName": "Amber Durum Wheat",
+					"tier": "subclass",
+					"icon": "wheat.svg",
+					"attributes": [],
+					"children": []
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"type": "text",
+	"name": "size",
+	"displayName": "Size",
+	"required": true
+}

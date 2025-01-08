@@ -1,0 +1,57 @@
+{
+	"name": "dryPeas",
+	"displayName": "Dry Peas",
+	"tier": "family",
+	"icon": "peas.svg",
+	"attributes": [],
+	"children": [
+		{
+			"name": "smoothGreenDryPeas",
+			"displayName": "Smooth Green Dry Peas",
+			"tier": "class",
+			"icon": "peas.svg",
+			"attributes": [],
+			"children": []
+		},
+		{
+			"name": "smoothYellowDryPeas",
+			"displayName": "Smooth Yellow Dry Peas",
+			"tier": "class",
+			"icon": "peas.svg",
+			"attributes": [],
+			"children": []
+		},
+		{
+			"name": "wrinkledDryPeas",
+			"displayName": "Wrinkled Dry Peas",
+			"tier": "class",
+			"icon": "peas.svg",
+			"attributes": [],
+			"children": []
+		},
+		{
+			"name": "mottledDryPeas",
+			"displayName": "Mottled Dry Peas",
+			"tier": "class",
+			"icon": "peas.svg",
+			"attributes": [],
+			"children": []
+		},
+		{
+			"name": "miscellaneousDryPeas",
+			"displayName": "Miscellaneous Dry Peas",
+			"tier": "class",
+			"icon": "peas.svg",
+			"attributes": [],
+			"children": []
+		},
+		{
+			"name": "mixedDryPeas",
+			"displayName": "Mixed Dry Peas",
+			"tier": "class",
+			"icon": "peas.svg",
+			"attributes": [],
+			"children": []
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"type": "numeric",
+	"name": "quantity",
+	"displayName": "Quantity",
+	"required": true,
+	"options": {
+		"min": 0
+	}
+}

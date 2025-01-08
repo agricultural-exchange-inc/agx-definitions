@@ -1,0 +1,41 @@
+{
+	"name": "brownRice",
+	"displayName": "Brown Rice",
+	"tier": "family",
+	"icon": "rice.svg",
+	"attributes": [],
+	"children": [
+		{
+			"name": "longGrainBrownRice",
+			"displayName": "Long Grain Brown Rice",
+			"tier": "class",
+			"icon": "rice.svg",
+			"attributes": [],
+			"children": []
+		},
+		{
+			"name": "mediumGrainBrownRice",
+			"displayName": "Medium Grain Brown Rice",
+			"tier": "class",
+			"icon": "rice.svg",
+			"attributes": [],
+			"children": []
+		},
+		{
+			"name": "shortGrainBrownRice",
+			"displayName": "Short Grain Brown Rice",
+			"tier": "class",
+			"icon": "rice.svg",
+			"attributes": [],
+			"children": []
+		},
+		{
+			"name": "mixedBrownRice",
+			"displayName": "Mixed Brown Rice",
+			"tier": "class",
+			"icon": "rice.svg",
+			"attributes": [],
+			"children": []
+		}
+	]
+}

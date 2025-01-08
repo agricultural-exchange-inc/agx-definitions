@@ -1,0 +1,12 @@
+{
+	"type": "select",
+	"name": "units",
+	"displayName": "Units",
+	"required": true,
+	"options": [
+		{ "value": "bushels", "label": "Bushels", "disabled": false },
+		{ "value": "pounds", "label": "Pounds", "disabled": false },
+		{ "value": "kilograms", "label": "Kilograms", "disabled": false },
+		{ "value": "tons", "label": "Tons", "disabled": false }
+	]
+}

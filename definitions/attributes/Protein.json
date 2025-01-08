@@ -1,0 +1,13 @@
+{
+	"type": "numeric",
+	"name": "protein",
+	"displayName": "Protein",
+	"description": "The protein content of the product.",
+	"required": false,
+	"negotiable": false,
+	"value": 0,
+	"options": {
+		"min": 0,
+		"max": 100
+	}
+}

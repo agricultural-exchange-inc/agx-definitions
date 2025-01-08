@@ -1,0 +1,6 @@
+{
+	"type": "text",
+	"name": "transportationMode",
+	"displayName": "Transportation Mode",
+	"required": true
+}

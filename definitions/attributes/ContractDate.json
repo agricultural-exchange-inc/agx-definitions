@@ -1,0 +1,6 @@
+{
+	"type": "date",
+	"name": "contractDate",
+	"displayName": "Contract Date",
+	"required": true
+}

@@ -1,0 +1,59 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"type": "object",
+	"properties": {
+		"version": {
+			"type": "string",
+			"description": "The version number of the attribute index."
+		},
+		"attributes": {
+			"type": "object",
+			"description": "A mapping of attribute categories to their file paths.",
+			"properties": {
+				"product": {
+					"type": "array",
+					"description": "Array of file paths for product attributes.",
+					"items": {
+						"type": "string",
+						"format": "uri-reference",
+						"description": "Relative path to a product attribute file."
+					},
+					"minItems": 1
+				},
+				"listing": {
+					"type": "array",
+					"description": "Array of file paths for listing attributes.",
+					"items": {
+						"type": "string",
+						"format": "uri-reference",
+						"description": "Relative path to a listing attribute file."
+					},
+					"minItems": 1
+				},
+				"delivery": {
+					"type": "array",
+					"description": "Array of file paths for delivery attributes.",
+					"items": {
+						"type": "string",
+						"format": "uri-reference",
+						"description": "Relative path to a delivery attribute file."
+					},
+					"minItems": 1
+				},
+				"contract": {
+					"type": "array",
+					"description": "Array of file paths for contract attributes.",
+					"items": {
+						"type": "string",
+						"format": "uri-reference",
+						"description": "Relative path to a contract attribute file."
+					},
+					"minItems": 1
+				}
+			},
+			"required": ["product", "listing", "delivery", "contract"],
+			"additionalProperties": false
+		}
+	},
+	"required": ["version", "attributes"]
+}

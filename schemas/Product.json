@@ -1,0 +1,46 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "Product",
+	"description": "Schema for representing products in a hierarchical structure.",
+	"type": "object",
+	"properties": {
+		"name": {
+			"type": "string",
+			"description": "Name of the product."
+		},
+		"displayName": {
+			"type": "string",
+			"description": "Display name of the product."
+		},
+		"tier": {
+			"type": "string",
+			"enum": ["family", "class", "subclass"],
+			"description": "Tier of the product (Family, Class, or Subclass)."
+		},
+		"children": {
+			"type": "array",
+			"description": "Child products, representing the hierarchical structure.",
+			"items": {
+				"$ref": "#"
+			},
+			"default": []
+		},
+		"attributes": {
+			"type": "array",
+			"description": "Attributes of the product.",
+			"items": {
+				"type": "string",
+				"format": "uri-reference",
+				"description": "Relative path to an attribute definition file."
+			},
+			"default": []
+		},
+		"icon": {
+			"type": ["string", "null"],
+			"description": "Icon of the product.",
+			"default": null
+		}
+	},
+	"required": ["name", "displayName", "tier", "children", "attributes"],
+	"additionalProperties": false
+}

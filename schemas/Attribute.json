@@ -1,0 +1,135 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"type": "object",
+	"oneOf": [
+		{
+			"properties": {
+				"type": { "const": "text" },
+				"name": { "type": "string", "pattern": "^[a-zA-Z0-9-_]+$" },
+				"displayName": { "type": "string" },
+				"required": { "type": "boolean" },
+				"options": {
+					"type": "object",
+					"properties": {
+						"placeholder": { "type": "string" },
+						"textarea": { "type": "boolean" }
+					},
+					"additionalProperties": false
+				},
+				"value": { "type": "string" }
+			},
+			"required": ["type", "name", "displayName", "required"]
+		},
+		{
+			"properties": {
+				"type": { "const": "numeric" },
+				"name": { "type": "string", "pattern": "^[a-zA-Z0-9-_]+$" },
+				"displayName": { "type": "string" },
+				"required": { "type": "boolean" },
+				"options": {
+					"type": ["object"],
+					"properties": {
+						"min": { "type": "number" },
+						"max": { "type": "number" },
+						"step": { "type": "number" },
+						"icon": { "type": "string" },
+						"format": {
+							"type": "object",
+							"properties": {
+								"style": { "type": "string", "enum": ["decimal", "currency", "percent"] },
+								"currency": { "type": "string" }
+							},
+							"additionalProperties": false
+						}
+					},
+					"additionalProperties": false
+				},
+				"value": { "type": "number" }
+			},
+			"required": ["type", "name", "displayName", "required"]
+		},
+		{
+			"properties": {
+				"type": { "const": "address" },
+				"name": { "type": "string", "pattern": "^[a-zA-Z0-9-_]+$" },
+				"displayName": { "type": "string" },
+				"required": { "type": "boolean" },
+				"options": {
+					"type": "object",
+					"additionalProperties": false
+				},
+				"value": {
+					"type": ["object", "null"],
+					"description": "The value for address attributes, which can be an object or null.",
+					"properties": {
+						"description": { "type": "string", "default": "" },
+						"addressLine1": { "type": "string" },
+						"addressLine2": { "type": "string", "default": "" },
+						"city": { "type": "string" },
+						"state": { "type": "string", "pattern": "^[A-Z]{2}$" },
+						"zipCode": { "type": "string", "pattern": "^[0-9]{5}(?:-[0-9]{4})?$" },
+						"country": { "type": "string", "default": "US" }
+					},
+					"required": ["addressLine1", "city", "state", "zipCode", "country"],
+					"additionalProperties": false
+				}
+			},
+			"required": ["type", "name", "displayName", "required"]
+		},
+		{
+			"properties": {
+				"type": { "const": "date" },
+				"name": { "type": "string", "pattern": "^[a-zA-Z0-9-_]+$" },
+				"displayName": { "type": "string" },
+				"required": { "type": "boolean" },
+				"options": {
+					"type": "object",
+					"properties": {
+						"timezone": { "type": "string" },
+						"min": { "type": "string", "format": "date" },
+						"max": { "type": "string", "format": "date" },
+						"add": {
+							"type": "object",
+							"properties": {
+								"days": { "type": "number" },
+								"weeks": { "type": "number" },
+								"months": { "type": "number" },
+								"years": { "type": "number" }
+							},
+							"additionalProperties": false
+						}
+					},
+					"additionalProperties": false
+				},
+				"value": { "type": ["string", "null"], "format": "date" }
+			},
+			"required": ["type", "name", "displayName", "required"]
+		},
+		{
+			"properties": {
+				"type": { "const": "select" },
+				"name": { "type": "string", "pattern": "^[a-zA-Z0-9-_]+$" },
+				"displayName": { "type": "string" },
+				"required": { "type": "boolean" },
+				"options": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"required": ["value", "label"],
+						"properties": {
+							"value": { "type": "string" },
+							"label": { "type": "string" },
+							"disabled": { "type": "boolean" },
+							"icon": { "type": "string" }
+						}
+					}
+				},
+				"value": {
+					"type": ["string", "null"],
+					"description": "The selected value. Must match one of the 'value' options."
+				}
+			},
+			"required": ["type", "name", "displayName", "required"]
+		}
+	]
+}

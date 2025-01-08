@@ -1,0 +1,11 @@
+{
+	"type": "date",
+	"name": "deliveryPeriodEnd",
+	"displayName": "Delivery Period End",
+	"required": false,
+	"options": {
+		"add": {
+			"days": 30
+		}
+	}
+}

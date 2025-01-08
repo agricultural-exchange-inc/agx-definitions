@@ -1,0 +1,8 @@
+{
+	"name": "lentils",
+	"displayName": "Lentils",
+	"tier": "family",
+	"icon": "lentils.svg",
+	"attributes": ["../attributes/LentilsColor.json"],
+	"children": []
+}

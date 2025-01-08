@@ -1,0 +1,6 @@
+{
+	"type": "text",
+	"name": "contractNumber",
+	"displayName": "Contract Number",
+	"required": true
+}
