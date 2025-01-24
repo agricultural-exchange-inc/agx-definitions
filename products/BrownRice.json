@@ -1,12 +1,12 @@
 {
-	"name": "brownRice",
+	"name": "brown-rice",
 	"displayName": "Brown Rice",
 	"tier": "family",
 	"icon": "rice.svg",
 	"attributes": [],
 	"children": [
 		{
-			"name": "longGrainBrownRice",
+			"name": "long-grain-brown-rice",
 			"displayName": "Long Grain Brown Rice",
 			"tier": "class",
 			"icon": "rice.svg",
@@ -14,7 +14,7 @@
 			"children": []
 		},
 		{
-			"name": "mediumGrainBrownRice",
+			"name": "medium-grain-brown-rice",
 			"displayName": "Medium Grain Brown Rice",
 			"tier": "class",
 			"icon": "rice.svg",
@@ -22,7 +22,7 @@
 			"children": []
 		},
 		{
-			"name": "shortGrainBrownRice",
+			"name": "short-grain-brown-rice",
 			"displayName": "Short Grain Brown Rice",
 			"tier": "class",
 			"icon": "rice.svg",
@@ -30,7 +30,7 @@
 			"children": []
 		},
 		{
-			"name": "mixedBrownRice",
+			"name": "mixed-brown-rice",
 			"displayName": "Mixed Brown Rice",
 			"tier": "class",
 			"icon": "rice.svg",

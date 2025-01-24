@@ -1,12 +1,12 @@
 {
-	"name": "milledRice",
+	"name": "milled-rice",
 	"displayName": "Milled Rice",
 	"tier": "family",
 	"icon": "rice.svg",
 	"attributes": [],
 	"children": [
 		{
-			"name": "secondHeadMilledRice",
+			"name": "second-head-milled-rice",
 			"displayName": "Second Head Milled Rice",
 			"tier": "class",
 			"icon": "rice.svg",
@@ -14,7 +14,7 @@
 			"children": []
 		},
 		{
-			"name": "screeningsMilledRice",
+			"name": "screenings-milled-rice",
 			"displayName": "Screenings Milled Rice",
 			"tier": "class",
 			"icon": "rice.svg",
@@ -22,7 +22,7 @@
 			"children": []
 		},
 		{
-			"name": "brewersMilledRice",
+			"name": "brewers-milled-rice",
 			"displayName": "Brewers Milled Rice",
 			"tier": "class",
 			"icon": "rice.svg",

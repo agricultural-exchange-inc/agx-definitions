@@ -6,14 +6,14 @@
 	"attributes": ["../attributes/Protein.json"],
 	"children": [
 		{
-			"name": "hardRedSpringWheat",
+			"name": "hard-red-spring-wheat",
 			"displayName": "Hard Red Spring Wheat",
 			"tier": "class",
 			"icon": "wheat.svg",
 			"attributes": [],
 			"children": [
 				{
-					"name": "darkNorthernSpringWheat",
+					"name": "dark-northern-spring-wheat",
 					"displayName": "Dark Northern Spring Wheat",
 					"tier": "subclass",
 					"icon": "wheat.svg",
@@ -21,7 +21,7 @@
 					"children": []
 				},
 				{
-					"name": "northernSpringWheat",
+					"name": "northern-spring-wheat",
 					"displayName": "Northern Spring Wheat",
 					"tier": "subclass",
 					"icon": "wheat.svg",
@@ -29,7 +29,7 @@
 					"children": []
 				},
 				{
-					"name": "redSpringWheat",
+					"name": "red-spring-wheat",
 					"displayName": "Red Spring Wheat",
 					"tier": "subclass",
 					"icon": "wheat.svg",
@@ -39,7 +39,7 @@
 			]
 		},
 		{
-			"name": "hardRedWinterWheat",
+			"name": "hard-red-winter-wheat",
 			"displayName": "Hard Red Winter Wheat",
 			"tier": "class",
 			"icon": "wheat.svg",
@@ -47,7 +47,7 @@
 			"children": []
 		},
 		{
-			"name": "softRedWinterWheat",
+			"name": "soft-red-winter-wheat",
 			"displayName": "Soft Red Winter Wheat",
 			"tier": "class",
 			"icon": "wheat.svg",
@@ -55,7 +55,7 @@
 			"children": []
 		},
 		{
-			"name": "hardWhiteWheat",
+			"name": "hard-white-wheat",
 			"displayName": "Hard White Wheat",
 			"tier": "class",
 			"icon": "wheat.svg",
@@ -63,7 +63,7 @@
 			"children": []
 		},
 		{
-			"name": "softWhiteSoftShiteWheat",
+			"name": "soft-white-soft-shite-wheat",
 			"displayName": "Soft White Soft Shite Wheat",
 			"tier": "class",
 			"icon": "wheat.svg",
@@ -71,14 +71,14 @@
 			"children": []
 		},
 		{
-			"name": "softWhiteWheat",
+			"name": "soft-white-wheat",
 			"displayName": "Soft White Wheat",
 			"tier": "class",
 			"icon": "wheat.svg",
 			"attributes": [],
 			"children": [
 				{
-					"name": "whiteClubSoftWhiteWheat",
+					"name": "white-club-soft-white-wheat",
 					"displayName": "White Club Soft White Wheat",
 					"tier": "subclass",
 					"icon": "wheat.svg",
@@ -86,7 +86,7 @@
 					"children": []
 				},
 				{
-					"name": "westernWhiteSoftWhiteWheat",
+					"name": "western-white-soft-white-wheat",
 					"displayName": "Western White Soft White Wheat",
 					"tier": "subclass",
 					"icon": "wheat.svg",
@@ -96,14 +96,14 @@
 			]
 		},
 		{
-			"name": "durumWheat",
+			"name": "durum-wheat",
 			"displayName": "Durum Wheat",
 			"tier": "class",
 			"icon": "wheat.svg",
 			"attributes": [],
 			"children": [
 				{
-					"name": "durumDurumWheat",
+					"name": "durum-durum-wheat",
 					"displayName": "Durum Durum Wheat",
 					"tier": "subclass",
 					"icon": "wheat.svg",
@@ -111,7 +111,7 @@
 					"children": []
 				},
 				{
-					"name": "hardAmberDurumWheat",
+					"name": "hard-amber-durum-wheat",
 					"displayName": "Hard Amber Durum Wheat",
 					"tier": "subclass",
 					"icon": "wheat.svg",
@@ -119,7 +119,7 @@
 					"children": []
 				},
 				{
-					"name": "amberDurumWheat",
+					"name": "amber-durum-wheat",
 					"displayName": "Amber Durum Wheat",
 					"tier": "subclass",
 					"icon": "wheat.svg",

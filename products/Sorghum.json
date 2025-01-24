@@ -6,7 +6,7 @@
 	"attributes": [],
 	"children": [
 		{
-			"name": "sorghumSorghum",
+			"name": "sorghum-sorghum",
 			"displayName": "Sorghum Sorghum",
 			"tier": "class",
 			"icon": "sorghum.svg",
@@ -14,7 +14,7 @@
 			"children": []
 		},
 		{
-			"name": "tanninSorghum",
+			"name": "tannin-sorghum",
 			"displayName": "Tannin Sorghum",
 			"tier": "class",
 			"icon": "sorghum.svg",
@@ -22,7 +22,7 @@
 			"children": []
 		},
 		{
-			"name": "whiteSorghum",
+			"name": "white-sorghum",
 			"displayName": "White Sorghum",
 			"tier": "class",
 			"icon": "sorghum.svg",
@@ -30,7 +30,7 @@
 			"children": []
 		},
 		{
-			"name": "mixedSorghum",
+			"name": "mixed-sorghum",
 			"displayName": "Mixed Sorghum",
 			"tier": "class",
 			"icon": "sorghum.svg",

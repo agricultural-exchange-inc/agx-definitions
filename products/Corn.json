@@ -6,7 +6,7 @@
 	"attributes": [],
 	"children": [
 		{
-			"name": "yellowCorn",
+			"name": "yellow-corn",
 			"displayName": "Yellow Corn",
 			"tier": "class",
 			"icon": "corn.svg",
@@ -14,7 +14,7 @@
 			"children": []
 		},
 		{
-			"name": "whiteCorn",
+			"name": "white-corn",
 			"displayName": "White Corn",
 			"tier": "class",
 			"icon": "corn.svg",
@@ -22,7 +22,7 @@
 			"children": []
 		},
 		{
-			"name": "mixedCorn",
+			"name": "mixed-corn",
 			"displayName": "Mixed Corn",
 			"tier": "class",
 			"icon": "corn.svg",

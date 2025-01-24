@@ -6,14 +6,14 @@
 	"attributes": [],
 	"children": [
 		{
-			"name": "maltingBarley",
+			"name": "malting-barley",
 			"displayName": "Malting Barley",
 			"tier": "class",
 			"icon": "barley.svg",
 			"attributes": [],
 			"children": [
 				{
-					"name": "sixRowedMaltingBarley",
+					"name": "six-rowed-malting-barley",
 					"displayName": "Six-Rowed Malting Barley",
 					"tier": "subclass",
 					"icon": "barley.svg",
@@ -21,7 +21,7 @@
 					"children": []
 				},
 				{
-					"name": "twoRowedMaltingBarley",
+					"name": "two-rowed-malting-barley",
 					"displayName": "Two-Rowed Malting Barley",
 					"tier": "subclass",
 					"icon": "barley.svg",
@@ -31,14 +31,14 @@
 			]
 		},
 		{
-			"name": "barleyBarley",
+			"name": "barley-barley",
 			"displayName": "Barley (class) Barley",
 			"tier": "class",
 			"icon": "barley.svg",
 			"attributes": [],
 			"children": [
 				{
-					"name": "sixRowedBarleyBarley",
+					"name": "six-rowed-barley-barley",
 					"displayName": "Six-Rowed Barley Barley",
 					"tier": "subclass",
 					"icon": "barley.svg",
@@ -46,7 +46,7 @@
 					"children": []
 				},
 				{
-					"name": "twoRowedBarleyBarley",
+					"name": "two-rowed-barley-barley",
 					"displayName": "Two-Rowed Barley Barley",
 					"tier": "subclass",
 					"icon": "barley.svg",
@@ -54,7 +54,7 @@
 					"children": []
 				},
 				{
-					"name": "barleyBarleyBarley",
+					"name": "barley-barley-barley",
 					"displayName": "Barley Barley Barley",
 					"tier": "subclass",
 					"icon": "barley.svg",

@@ -6,7 +6,7 @@
 	"attributes": [],
 	"children": [
 		{
-			"name": "yellowSoybeans",
+			"name": "yellow-soybeans",
 			"displayName": "Yellow Soybeans",
 			"tier": "class",
 			"icon": "soybean.svg",
@@ -14,7 +14,7 @@
 			"children": []
 		},
 		{
-			"name": "mixedSoybeans",
+			"name": "mixed-soybeans",
 			"displayName": "Mixed Soybeans",
 			"tier": "class",
 			"icon": "soybean.svg",

@@ -1,12 +1,12 @@
 {
-	"name": "dryPeas",
+	"name": "dry-peas",
 	"displayName": "Dry Peas",
 	"tier": "family",
 	"icon": "peas.svg",
 	"attributes": [],
 	"children": [
 		{
-			"name": "smoothGreenDryPeas",
+			"name": "smooth-green-dry-peas",
 			"displayName": "Smooth Green Dry Peas",
 			"tier": "class",
 			"icon": "peas.svg",
@@ -14,7 +14,7 @@
 			"children": []
 		},
 		{
-			"name": "smoothYellowDryPeas",
+			"name": "smooth-yellow-dry-peas",
 			"displayName": "Smooth Yellow Dry Peas",
 			"tier": "class",
 			"icon": "peas.svg",
@@ -22,7 +22,7 @@
 			"children": []
 		},
 		{
-			"name": "wrinkledDryPeas",
+			"name": "wrinkled-dry-peas",
 			"displayName": "Wrinkled Dry Peas",
 			"tier": "class",
 			"icon": "peas.svg",
@@ -30,7 +30,7 @@
 			"children": []
 		},
 		{
-			"name": "mottledDryPeas",
+			"name": "mottled-dry-peas",
 			"displayName": "Mottled Dry Peas",
 			"tier": "class",
 			"icon": "peas.svg",
@@ -38,7 +38,7 @@
 			"children": []
 		},
 		{
-			"name": "miscellaneousDryPeas",
+			"name": "miscellaneous-dry-peas",
 			"displayName": "Miscellaneous Dry Peas",
 			"tier": "class",
 			"icon": "peas.svg",
@@ -46,7 +46,7 @@
 			"children": []
 		},
 		{
-			"name": "mixedDryPeas",
+			"name": "mixed-dry-peas",
 			"displayName": "Mixed Dry Peas",
 			"tier": "class",
 			"icon": "peas.svg",
