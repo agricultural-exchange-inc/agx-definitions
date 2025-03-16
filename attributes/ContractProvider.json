@@ -1,12 +1,12 @@
 {
-	"type": "select",
-	"name": "contractProvider",
-	"displayName": "Contract Provider",
-	"description": "Please select who will provide the contract",
-	"required": false,
-	"value": "buyer",
-	"options": [
-		{ "value": "buyer", "label": "Buyer", "disabled": false },
-		{ "value": "seller", "label": "Seller", "disabled": false }
-	]
+  "type": "select",
+  "name": "contractProvider",
+  "displayName": "Contract Provider",
+  "description": "Please select who will provide the contract",
+  "required": true,
+  "value": "buyer",
+  "options": [
+    { "value": "buyer", "label": "Buyer", "disabled": false },
+    { "value": "seller", "label": "Seller", "disabled": false }
+  ]
 }

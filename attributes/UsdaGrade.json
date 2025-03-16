@@ -1,15 +1,15 @@
 {
-	"type": "select",
-	"name": "usdaGrade",
-	"displayName": "USDA Grade",
-	"required": false,
-	"options": [
-		{ "value": "1", "label": "USDA Grade 1", "disabled": false },
-		{ "value": "2", "label": "USDA Grade 2", "disabled": false },
-		{ "value": "3", "label": "USDA Grade 3", "disabled": false },
-		{ "value": "4", "label": "USDA Grade 4", "disabled": false },
-		{ "value": "5", "label": "USDA Grade 5", "disabled": false },
-		{ "value": "sample", "label": "Sample", "disabled": false }
-	],
-	"negotiable": false
+  "type": "select",
+  "name": "usdaGrade",
+  "displayName": "USDA Grade",
+  "required": false,
+  "options": [
+    { "value": "1", "label": "USDA Grade 1", "disabled": false },
+    { "value": "2", "label": "USDA Grade 2", "disabled": false },
+    { "value": "3", "label": "USDA Grade 3", "disabled": false },
+    { "value": "4", "label": "USDA Grade 4", "disabled": false },
+    { "value": "5", "label": "USDA Grade 5", "disabled": false },
+    { "value": "sample", "label": "Sample Grade", "disabled": false }
+  ],
+  "negotiable": false
 }

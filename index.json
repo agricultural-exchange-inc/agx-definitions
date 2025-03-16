@@ -1,58 +1,67 @@
 {
-	"name": "agx",
-	"products": [
-		"./products/Barley.json",
-		"./products/BrownRice.json",
-		"./products/Canola.json",
-		"./products/Coffee.json",
-		"./products/Corn.json",
-		"./products/DryPeas.json",
-		"./products/Flax.json",
-		"./products/Lentils.json",
-		"./products/MilledRice.json",
-		"./products/Oats.json",
-		"./products/RoughRice.json",
-		"./products/Rye.json",
-		"./products/Sorghum.json",
-		"./products/Soybeans.json",
-		"./products/SunflowerSeeds.json",
-		"./products/Wheat.json"
-	],
-	"attributes": {
-		"product": ["./attributes/Protein.json", "./attributes/LentilsColor.json"],
-		"listing": [
-			"./attributes/CertifiedOrganic.json",
-			"./attributes/Price.json",
-			"./attributes/Units.json",
-			"./attributes/Quantity.json",
-			"./attributes/UsdaGrade.json",
-			"./attributes/CropYear.json",
-			"./attributes/TestWeight.json"
-		],
-		"delivery": [
-			"./attributes/DeliveryAddress.json",
-			"./attributes/DeliveryBasis.json",
-			"./attributes/DeliveryPeriodStart.json",
-			"./attributes/DeliveryPeriodEnd.json",
-			"./attributes/GradesToGovern.json",
-			"./attributes/ShippingMethod.json",
-			"./attributes/WeightToGovern.json"
-		],
-		"contract": [
-			"./attributes/Basis.json",
-			"./attributes/ContractDate.json",
-			"./attributes/ContractNotes.json",
-			"./attributes/ContractNumber.json",
-			"./attributes/FeePayment.json",
-			"./attributes/Futures.json",
-			"./attributes/OptionMethod.json",
-			"./attributes/SettlementTerms.json",
-			"./attributes/ShipmentNotes.json",
-			"./attributes/ShipmentText.json",
-			"./attributes/TraderId.json",
-			"./attributes/ItemNumber.json",
-			"./attributes/Size.json",
-			"./attributes/TransportationMode.json"
-		]
-	}
+  "name": "agx",
+  "products": [
+    "./products/Barley.json",
+    "./products/BrownRice.json",
+    "./products/Canola.json",
+    "./products/Coffee.json",
+    "./products/Corn.json",
+    "./products/DryPeas.json",
+    "./products/Flax.json",
+    "./products/Lentils.json",
+    "./products/MilledRice.json",
+    "./products/Oats.json",
+    "./products/RoughRice.json",
+    "./products/Rye.json",
+    "./products/Sorghum.json",
+    "./products/Soybeans.json",
+    "./products/SunflowerSeeds.json",
+    "./products/Wheat.json"
+  ],
+  "attributes": {
+    "product": ["./attributes/Protein.json", "./attributes/LentilsColor.json"],
+    "listing": [
+      "./attributes/CertifiedOrganic.json",
+      "./attributes/Price.json",
+      "./attributes/Units.json",
+      "./attributes/Quantity.json",
+      "./attributes/UsdaGrade.json",
+      "./attributes/CropYear.json",
+      "./attributes/TestWeight.json",
+      "./attributes/DeliveryRegion.json",
+      "./attributes/DeliveryAddress.json",
+      "./attributes/DeliveryBasis.json",
+      "./attributes/DeliveryPeriodStart.json",
+      "./attributes/DeliveryPeriodEnd.json",
+      "./attributes/GradesToGovern.json",
+      "./attributes/ShippingMethod.json",
+      "./attributes/WeightToGovern.json",
+      "./attributes/ContractProvider.json"
+    ],
+    "delivery": [
+      "./attributes/DeliveryAddress.json",
+      "./attributes/DeliveryBasis.json",
+      "./attributes/DeliveryPeriodStart.json",
+      "./attributes/DeliveryPeriodEnd.json",
+      "./attributes/GradesToGovern.json",
+      "./attributes/ShippingMethod.json",
+      "./attributes/WeightToGovern.json"
+    ],
+    "contract": [
+      "./attributes/Basis.json",
+      "./attributes/ContractDate.json",
+      "./attributes/ContractNotes.json",
+      "./attributes/ContractNumber.json",
+      "./attributes/FeePayment.json",
+      "./attributes/Futures.json",
+      "./attributes/OptionMethod.json",
+      "./attributes/SettlementTerms.json",
+      "./attributes/ShipmentNotes.json",
+      "./attributes/ShipmentText.json",
+      "./attributes/TraderId.json",
+      "./attributes/ItemNumber.json",
+      "./attributes/Size.json",
+      "./attributes/TransportationMode.json"
+    ]
+  }
 }

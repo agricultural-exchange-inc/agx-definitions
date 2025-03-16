@@ -1,13 +1,12 @@
 {
-	"type": "select",
-	"name": "shippingMethod",
-	"displayName": "Shipping Method",
-	"required": false,
-	"value": "truck",
-	"options": [
-		{ "value": "truck", "label": "Truck" },
-		{ "value": "rail", "label": "Rail" },
-		{ "value": "barge", "label": "Barge" },
-		{ "value": "plane", "label": "Plane" }
-	]
+  "type": "select",
+  "name": "shippingMethod",
+  "displayName": "Shipping Method",
+  "required": false,
+  "options": [
+    { "value": "truck", "label": "Truck" },
+    { "value": "rail", "label": "Rail" },
+    { "value": "barge", "label": "Barge" },
+    { "value": "plane", "label": "Plane" }
+  ]
 }

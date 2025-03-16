@@ -1,0 +1,22 @@
+{
+  "type": "select",
+  "name": "deliveryRegion",
+  "displayName": "Delivery Region",
+  "required": false,
+  "options": [
+    { "value": "northwest", "label": "Northwest", "disabled": false },
+    { "value": "southwest", "label": "Southwest", "disabled": false },
+    { "value": "midwest", "label": "Midwest", "disabled": false },
+    { "value": "northeast", "label": "Northeast", "disabled": false },
+    { "value": "southeast", "label": "Southeast", "disabled": false },
+    { "value": "plains", "label": "Great Plains", "disabled": false },
+    {
+      "value": "rocky-mountains",
+      "label": "Rocky Mountains",
+      "disabled": false
+    },
+    { "value": "west-coast", "label": "West Coast", "disabled": false },
+    { "value": "east-coast", "label": "East Coast", "disabled": false }
+  ],
+  "negotiable": false
+}
